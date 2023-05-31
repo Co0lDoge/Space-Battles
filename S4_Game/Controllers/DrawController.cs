@@ -11,6 +11,8 @@ namespace S4_Game
 {
     internal class DrawController
     {
+        /** This class is responsible for drawing drawable objects. **/
+
         private PictureBox _pictureBox;
         private Color _backColor = Color.Black;
 

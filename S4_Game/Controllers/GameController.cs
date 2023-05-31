@@ -14,15 +14,17 @@ namespace S4_Game
 
     internal class GameController
     {
-        DrawController DrawControl;
+        /** This class is controlling main game cycle, 
+         *  player's inputs, other controllers. **/
+
+        private DrawController DrawControl;
+        private CollisionController CollisionController;
 
         private EnemyGroup EnemyGroup;
         private ProjectileGroup ProjectileGroup;
         private ParticleGroup ParticleGroup;
         private Player Player;
 
-        private CollisionController CollisionController;
-        
         public int PlayerAcceleration { get { return Player.Acceleration; } set { Player.Acceleration = value; } }
 
         // Required to constraint object in pictureBox

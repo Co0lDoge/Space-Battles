@@ -9,6 +9,7 @@ namespace S4_Game
 {
     abstract internal class DrawableObject
     {
+        /** This is base class for all objects drawn on screen **/
         public Image Image { get; set; }
         public Point Position { get; set; }
         public Point Center
