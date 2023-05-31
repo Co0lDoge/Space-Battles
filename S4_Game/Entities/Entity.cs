@@ -9,6 +9,7 @@ namespace S4_Game
 {
     internal class Entity : DrawableObject
     {
+        /** This is base class for all entities **/
         public Entity(Image image, Point position) : base(image, position)
         {
             Image = image;

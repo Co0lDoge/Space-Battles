@@ -9,6 +9,8 @@ namespace S4_Game
 {
     internal class CollisionController
     {
+        /** This class is responsible for collision checks. **/
+
         private List<DrawableObject> Enemies;
         private List<Projectile> Projectiles;
         private Player Player;
